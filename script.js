@@ -6,7 +6,7 @@ let btn = document.querySelector(".save")
 let form = document.querySelector(".form")
 
 
-//показывает в строке текст
+//показывает в input текст selecta
 select.onchange = function (){
     let str = select.options[select.selectedIndex].text;
     console.log(str)
@@ -17,7 +17,7 @@ text.onfocus = function(){
     form.style.border = "0"
 }
 
-//меняет текст option
+//меняет текст option+проверка на пустую строку
 
 btn.onclick = function(){
     if(text.value.replace(/^\s+|\s+$/g, '') === ""){
