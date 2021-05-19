@@ -1,6 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
 }
 
+.wrap{
+    margin: 20px 50px;
+}
+.cont{
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.h2{
+    font-size: 28px;
+}
+.select{
+    width: 250px;
+    font-size: 26px;
+    margin-top: 15px;
+    border-radius:5px;
+    border: 3px solid rgba(58, 68, 70, 0.432);
+    text-align-last: center;
+    box-shadow: 0 0 5px black;
+    position: relative;
+}
+
+.form{
+    margin-top: 15px;
+    display: flex;
+    width: 50%;
+}
+.text{
+    flex-grow: 2;
+    padding: 10px;
+    
+    border: 3px solid rgba(102, 127, 131, 0.432);
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 0 5px black;
+}
+.save{
+    padding: 10px;
+    
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 5px black;
+    border: 3px solid rgba(102, 127, 131, 0.432);
+}
+.save:hover{
+    background: rgba(215, 216, 224, 0.767);
+}
+.save:active{
+    box-shadow: inset 0 0 5px black;
+}
