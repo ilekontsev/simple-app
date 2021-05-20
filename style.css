@@ -1,4 +1,6 @@
-
+*{
+    box-shadow: none !important;
+}
 .wrap{
     margin: 20px
 }
