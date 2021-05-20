@@ -1,7 +1,6 @@
 //обьявление 
 let select = document.querySelector(".select");
 let text = document.querySelector(".text")
-let str = select.options[select.selectedIndex].text;
 let btn = document.querySelector(".save")
 let form = document.querySelector(".form")
 
